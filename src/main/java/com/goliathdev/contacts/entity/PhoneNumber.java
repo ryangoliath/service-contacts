@@ -9,26 +9,26 @@ import javax.persistence.Id;
 public class PhoneNumber {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 	
-	private int areaCode;
+	private String areaCode;
 	
 	private String number;
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
-	public int getAreaCode() {
+	public String getAreaCode() {
 		return areaCode;
 	}
 
-	public void setAreaCode(int areaCode) {
+	public void setAreaCode(String areaCode) {
 		this.areaCode = areaCode;
 	}
 

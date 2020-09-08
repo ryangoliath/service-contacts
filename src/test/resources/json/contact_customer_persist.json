@@ -1,0 +1,23 @@
+{
+  "customer": {
+    "customerNumber": 100,
+    "lastOrderDate": "2020-01-30",
+    "phoneNumbers": [
+      {
+        "id": 100,
+        "areaCode": "+27",
+        "number": "768852222"
+      }
+    ],
+    "company": {
+      "id": 20,
+      "name": "ABC Corp",
+      "registrationNumber": "REG-XYZ-ABC-001"
+    },
+    "person": {
+      "id": 20,
+      "firstName": "Ryan",
+      "lastName": "Goliath"
+    }
+  }
+}
